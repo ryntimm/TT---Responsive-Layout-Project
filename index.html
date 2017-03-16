@@ -6,10 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/styles.css">
-  <link href="https://fonts.goo gleapis.com/css?family=Comfortaa|Ubuntu|Yanone+Kaffeesatz" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa|Megrim|Montserrat+Subrayada|Ubuntu" rel="stylesheet">
+
 </head>
   <body>
-    <header id="home">
+    <div class="wrapper">
+    <header id="home" class="main-nav">
       <h1>Ryan Timm</h1>
         <nav id="nav-header">
           <ul class="nav-header-links">
@@ -22,11 +24,12 @@
 
     <section id="profile">
       <img class="profile-picture" src="images/responsive-layout-profile.png" alt="Profile Picture">
+      <div class"profile-text">
       <p>Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put my skills to use!</p>
+      </div>
     </section>
 
     <main id="portfolio">
-      <div class="wrapper">
       <h2>Portfolio</h2>
 
       <div class="wrapper">
@@ -83,9 +86,12 @@
           <div class="email">Email  <a href="mailto:ryan.timm7@gmail.com"> ryan.timm7@gmail.com</a>
     </section>
 
-    <footer>
+    <div class="line">
+    </div>
+
+    <footer class="main-footer">
       <p>Ryan Timm</p>
-      <a id="back-to-top" href="#home">Back To Top</a>
+      <a class="back-to-top" href="#home">Back To Top</a>
       <nav id="nav-footer">
         <ul class=nav-links-footer>
           <li><a href="#home">Home</a></li>
@@ -94,5 +100,6 @@
         </ul>
       </nav>
     </footer>
+  </div>
   </body>
 </html>
