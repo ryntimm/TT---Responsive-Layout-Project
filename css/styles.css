@@ -195,7 +195,14 @@ footer {
 .email {
   color: #7a7a7a;
   font-weight: lighter;
-  padding-bottom: 30px;
+}
+
+.phone {
+  padding-bottom: 10px;
+}
+
+.email {
+  padding-bottom: 40px;
 }
 
 .phone a,
